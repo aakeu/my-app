@@ -36,3 +36,970 @@
     transform: rotate(360deg);
   }
 }
+
+/* .navContainer {
+  display: flex;
+  align-items: center; 
+  margin-top: 30px;
+}
+
+
+
+  .imgLogo{
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-left: 18%;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 10px; 
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #495E57;
+   font-size: 20px;
+   font-weight: bold;
+
+
+  }
+
+  .HeadBox{
+    background-color: #495E57;
+    width: 100%;
+    height: 220px; 
+    display: flex;
+    
+   
+
+  }
+  
+  .HeadBox h1 {
+    color: #F4CE14; 
+    margin-left: 18%;
+  }
+
+  .HeadBox h4 {
+    margin-top: 4.5%;
+    margin-left: -14.5%;
+    color: white;
+    font-weight:normal;
+
+  }
+
+  .HeadBox p {
+    margin-top: 7%;
+    margin-left: 18%;
+    color: white;
+    font-weight:normal; 
+    font-size: 11px;
+    position: fixed;
+  }
+
+  .containerReserve{
+    background-color: #F4CE14;
+    width: 15%;
+    height: 30px;
+    margin-top: -5%; 
+    margin-left: 17.5%;
+    border-radius: 10px;
+    
+     }
+
+     .containerReserve h4{
+      text-align: center;
+      padding-top: 5px;
+     }
+
+     .headPics{
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+
+      margin-left: 60%;
+      margin-top: -12%;
+     }
+
+  */
+
+/*area*/
+
+/*   
+  .navContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 3vmin; 
+  }
+  
+  .imgLogo {
+    width: 20vmin; 
+    height: auto;
+    margin-right: 5vmin; 
+    margin-left: 30vmin;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 6vmin; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #495E57;
+    font-size: 2vmin; 
+    font-weight: bold;
+  }
+  
+  .HeadBox {
+    background-color: #495E57;
+    width: 100%;
+    height: 30vh; 
+    display: flex;
+    flex-direction: column; 
+  
+    align-items: start; 
+    justify-content: center; 
+  }
+  
+  .HeadBox h1 {
+    color: #F4CE14;
+    margin: 0; 
+    font-size: 3vmin; 
+    margin-left: 30vmin;
+    margin-top: -5vmin;
+   
+  }
+  
+  .HeadBox h4 {
+    margin-top: 2vmin;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5vmin; 
+  }
+  
+  .HeadBox p {
+    margin-top: 2vmin;
+    color: white;
+    font-weight: normal;
+    font-size: 1vmin; 
+  }
+  
+  .containerReserve {
+    background-color: #F4CE14;
+    width: 10vmin; 
+    height: 4vh; 
+    margin-top: 1vmin; 
+    border-radius: 1vmin; 
+  }
+  
+  .containerReserve h4 {
+    text-align: center;
+    padding-top: 1vmin;
+    font-size: 1.5vmin; 
+  }
+  
+  .headPics {
+    width: 20vmin; 
+    height: 20vmin; 
+    border-radius: 1vmin; 
+    margin-top: 2vmin; 
+  }
+   */
+
+   /* App.css */
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 10px 80px; /* Adjust the padding as needed */
+  background-color: white; /* Optional: Add a background color for the navigation bar */
+}
+
+.imgLogo {
+  max-height: 50px; /* Adjust the max-height as needed */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+nav a {
+  text-decoration: none;
+  color: #495E57; /* Optional: Set the color for navigation links */
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+
+  nav li {
+    margin-right: 0; /* Remove margin for list items */
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  nav a {
+    text-decoration: none;
+    color: #495E57; /* Optional: Set the color for navigation links */
+    font-weight: bold;
+    /* font-size: 12px; */
+    margin-right: 10px;
+  }
+}
+
+
+
+
+/*  */
+
+/* App.css */
+
+.HeadBox {
+  width: 100%;
+  height: 220px;
+  background-color: #495E57;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+/* .HeadBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.HeadBox h1 {
+  margin-left: 18%;
+  margin-bottom: 0px;
+  color: #fff; /* Text color for h1 */
+  
+}
+
+.HeadBox h4 {
+  margin-left: 18%;
+
+  margin-top: -0px; /* Add space between h1 and h4 */
+  color: #fff; /* Text color for h4 */
+  font-size: small;
+}
+
+.HeadBox p {
+  margin-left: 18%;
+  margin-bottom: 70px;
+  margin-top: -5px;
+  color: #fff; /* Text color for h4 */
+  font-size: small;
+}
+
+
+.containerReserve {
+  background-color: #F4CE14;
+  width: 25vmin;
+  height: 6vmin;
+  padding: 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  margin-top: -7vmin;
+  border-radius: 20px;
+  margin-left: 20%;
+}
+
+.containerReserve h4 {
+  color: #495E57; /* Text color for h4 in containerReserve */
+  text-align: center;
+  padding-bottom: auto;
+padding-top: auto;
+margin-top: 0.5vmin;
+
+
+
+}
+
+/* .picsBox {
+  margin-right: 20%; 
+} */
+
+.headPics {
+  width: 30vmin;
+  height: 30vmin;
+  border-radius: 1vmin;
+  margin-left: 65%;
+
+  margin-top: -11%;
+ 
+}
+
+
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .containerHeader {
+    height: auto;
+  }
+
+  .HeadBox {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .HeadBox h1 {
+    margin-left: 8%;
+    text-align: left;
+    margin-bottom: 2px;
+    
+  }
+
+  .HeadBox h4 {
+    /* margin-top: 10px; */
+    text-align: left;
+    margin-left: 8%; 
+    margin-top: 0px;
+  }
+  .HeadBox p {
+    text-align: left;
+    margin-left: 8%; 
+    margin-top: 0px;
+    font-size: 12px; 
+    font-weight:normal
+  }
+  /* .containerReserve {
+    width: 100%;
+    margin-top: 10px;
+  } */
+
+  .containerReserve {
+    background-color: #F4CE14;
+    width: 30vmin;
+    height: 8vmin;
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    margin-top: -10vmin;
+    border-radius: 20px;
+    margin-left: 10%;
+  }
+  
+  .containerReserve h4 {
+    color: #495E57; /* Text color for h4 in containerReserve */
+    text-align: center;
+    padding-bottom: auto;
+  padding-top: auto;
+  margin-top: 0vmin;
+  
+  
+  
+  }
+
+  /* .picsBox {
+    margin-right: 0;
+    margin-top: 10px; 
+  } */
+
+  .headPics {
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 1vmin;
+    margin-left: 65%;
+  
+    margin-top: -20%;
+   
+  }
+}
+
+
+/* App.css */
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Add space between "This Week's Specials" and "Online Menu" */
+}
+
+.onlineContainer {
+  background-color: #F4CE14;
+  /* padding: 10px; */
+  width: 18vmin;
+  height: 5vmin;
+  margin-left: 50vmin;
+  margin-right: auto;;
+  border-radius: 20px;
+}
+
+.onlineContainer H4{
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 18px;
+ 
+}
+
+.specialSection {
+  /* margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+  width: 50%;
+  margin: 10px auto; /* Center the specialSection div */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.special1Container {
+  width: 30%; /* Adjust width as needed for desktop */
+  margin-bottom: 20px; /* Add space between special containers */
+  background-color: hsl(120, 8%, 91%);
+}
+
+.special1 {
+  width: 100%;
+  height: auto;
+}
+
+.nameContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nameContainer h4,
+.nameContainer p {
+  margin: 0; /* Remove default margin for h4 and p */
+}
+
+.nameContainer p {
+  color: #EE9972; /* Remove default margin for h4 and p */
+ font-weight: bolder;
+}
+.explain {
+  text-align:justify;
+  color: #495E57; /* Optional: Set the color for the explanation text */
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.order {
+  text-align: center;
+  color: #495E57; /* Optional: Set the color for the order text */
+  font-size: 20px;
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .specialContainer {
+    flex-direction: row;
+    /* align-items: flex-start; */
+  }
+
+
+
+  .special1Container {
+    width: 100%; /* Adjust width for mobile screens */
+  }
+
+  .onlineContainer {
+    background-color: #F4CE14;
+    
+    width: 28vmin;
+    height: 7.5vmin;
+    margin-left: 10vmin;
+    margin-right: auto;;
+    border-radius: 20px;
+  }
+  
+  .onlineContainer H4{
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 18px;
+   
+  }
+}
+
+
+
+
+
+
+/* App.css */
+
+/* App.css */
+
+.testimonialBlock {
+  background-color:  #495E57; /* Light green background color for testimonialBlock */
+  padding: 20px;
+
+}
+
+.testimonialBlock h4{
+  margin-left: 50%;
+  font-size:26px;
+  margin-top: 0px;
+  color: white;
+}
+
+.reviewBlock {
+  overflow: hidden;
+  /* white-space: nowrap; */
+  width: 40%;
+  height: 25vmin;
+  background-color: white;
+  animation: scrollText 20s linear infinite; /* Adjust the duration as needed */
+  
+  border-radius: 20px;
+ 
+
+}
+
+.reviewBlock p,
+.reviewBlock h3{
+  /* padding-top: 30px; */
+
+ text-align: center;
+}
+
+.reviewBlock p{
+  padding-top: 30px;
+}
+
+
+
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.advertBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 190px;
+}
+
+.advertDiscription {
+  /* flex: 1; */
+  margin-right: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.advertDiscription p{
+font-weight: 300;
+}
+
+.brandName {
+  display: flex;
+  flex-direction: column;
+}
+
+.cursine1,
+.cursine2 {
+  width: 250px; /* Adjust the width as needed */
+  height: 250px; /* Adjust the height as needed */
+  position: relative;
+  /* margin-left: -20px; Adjust the margin as needed for slight overlap */
+  z-index: 1;
+  border-radius: 40px;
+}
+ 
+ .cursine1{
+  margin-top: 100px;
+}
+
+ .cursine2{
+
+  padding-right: 20px;
+    margin-bottom: 60px;
+}  
+
+.brandName h1 {
+ 
+  margin-bottom: 0px;
+  color: #495E57; /* Text color for h1 */
+  
+}
+
+.brandName p {
+
+
+  margin-top: -0px; /* Add space between h1 and h4 */
+  color: #495E57; /* Text color for h4 */
+  font-size:medium;
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .advertBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advertDiscription {
+    margin-right: 0; /* Remove margin for mobile layout */
+    margin-bottom: 20px; /* Add margin to separate content and images */
+    margin-left: -70px;
+  }
+
+  .cursine1,
+  .cursine2 {
+    width: 100%; /* Adjust width to fill the container on mobile */
+    height: auto; /* Allow height to adjust proportionally */
+    margin-left: -70px; /* Remove margin for mobile layout */
+    margin-top: 10px; /* Add margin to separate images on mobile */
+  }
+  .testimonialBlock h4{
+    margin-left: 30%;
+    font-size:26px;
+    margin-top: 0px;
+    color: white;
+  }
+
+  .reviewBlock {
+    overflow: hidden;
+    /* white-space: nowrap; */
+    width: 90%;
+    height: 25vmin;
+    background-color: white;
+    animation: scrollText 20s linear infinite; /* Adjust the duration as needed */
+    
+    border-radius: 20px;
+   
+  
+  }
+  .reviewBlock p{
+    padding-top: 0px;
+  }
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-0%);
+    }
+  }
+}
+
+
+
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(120, 8%, 91%);; /* Change the background color as needed */
+  color: #495E57;
+  padding: 20px;
+}
+.logo2{
+
+ max-height: 60px; /* Adjust the max-height as needed */
+
+}
+.logo2Div,
+.navDiv,
+.contactDiv,
+.mediaDiv {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.navDiv ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navDiv li {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+.bookingContianer{
+  background-color: #495E57;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr;
+  gap: 20px; */
+}
+
+.HeadBox1 {
+  width: 100%;
+
+  background-color: #495E57;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+/* .HeadBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.HeadBox1 h1 {
+  margin-left: 12%;
+  margin-bottom: 0px;
+  color: #F4CE14; /* Text color for h1 */
+  
+}
+
+.HeadBox1 h4 {
+  margin-left: 12%;
+
+  margin-top: -0px; /* Add space between h1 and h4 */
+  color: #fff; /* Text color for h4 */
+  font-size: small;
+}
+
+.HeadBox1 p {
+  text-align: center;
+  font-weight:400;
+  font-size: 60px;
+
+  margin-top: 10px; /* Add space between h1 and h4 */
+  color: #fff; /* Text color for h4 */
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .HeadBox1 p {
+    text-align: center;
+    font-weight:400;
+    font-size: 30px;
+  
+    margin-top: 10px; /* Add space between h1 and h4 */
+    color: #fff; /* Text color for h4 */
+    
+  }
+}
+
+
+/* Add these styles to your existing CSS file or component */
+
+
+
+.HeadBox1 {
+  margin-top: 20px;
+}
+
+.picsBooking1 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto; /* Center the images */
+}
+
+.bookingPics {
+  width: 30%;
+  height: 40vmin;
+  border-radius: 8px;
+}
+.bookingPics1 {
+  width: 30%;
+  height: 40vmin;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+#res-date,
+#res-time {
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Customize the styling of radio buttons and labels as needed */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .bookingContianer {
+    grid-template-columns: 1fr; /* Stack columns on smaller screens */
+  }
+
+  .picsBooking1 {
+    flex-direction: flex;
+    align-items: center;
+  }
+
+  .bookingPics {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .bookingPics1 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+
+.dateTimeDiv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.dateDiv{
+  width: 400px;
+  height: auto;
+margin-left: 5%;
+}
+
+.timeDiv{
+  width: 400px;
+  height: auto;
+margin-right: 5%;
+}
+
+.guestOcassionDiv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+   font-size: 20px;
+  color: whitesmoke;
+}
+
+.guestNumber{
+  width: 400px;
+  height: auto;
+/* margin-left: 5%; */
+
+}
+
+.seatingDiv{
+ margin-left: 45%;
+
+}
+
+.seatingDiv  label{
+  font-size: 20px;
+  color: whitesmoke;
+ 
+ }
+.sumbitBu{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+.submitButton {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  font-size: 36px; /* Set font size */
+}
+
+/* Add hover effect */
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .dateTimeDiv {
+    display: flex;
+   
+ 
+   
+    /* margin-top: 30px;  */
+    flex-direction: column;
+
+  }
+  .dateDiv{
+    width: 400px;
+    height: auto;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  }
+  .timeDiv{
+    width: 400px;
+    height: auto;
+  }
+  .guestOcassionDiv{
+    display: flex;
+   flex-direction: column;
+
+  }
+  .guestNumber{ 
+    margin-top: -35px;
+    margin-bottom: 10px; 
+  }
+  .seatingDiv{
+    margin-left: 0%;
+   
+   } 
+}
